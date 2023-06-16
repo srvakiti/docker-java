@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class StartApplication {
 
-    @GetMapping("/")
+    @GetMapping("/srini")
     public String index(final Model model) {
         model.addAttribute("title", "Docker + Spring Boot");
         model.addAttribute("msg", "Welcome to the docker container!");
