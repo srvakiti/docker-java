@@ -14,7 +14,7 @@ public class StartApplication {
     public String index(final Model model) {
         model.addAttribute("title", "Docker + Spring Boot");
         model.addAttribute("msg", "Welcome to the docker container!");
-        model.addAttribute("cloud", "GCP CLOUD Run Service!");
+        model.addAttribute("cloud", "GCP CLOUD Run Service! by Srinivas");
       
         return "index";
     }
