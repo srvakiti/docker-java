@@ -10,7 +10,7 @@ ARG JAR_FILE=target/spring-boot-web.jar
 # cd /opt/app
 WORKDIR /opt/app
 
-cp target/spring-boot-web.jar /opt/app/app.jar
+RUN cp target/spring-boot-web.jar /opt/app/app.jar
 #COPY ${JAR_FILE} app.jar
 #RUN cp "${JAR_FILE}" app.jar
 
